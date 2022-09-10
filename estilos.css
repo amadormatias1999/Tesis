@@ -1,0 +1,102 @@
+
+
+/** Globales **/
+
+body 
+{
+    background-image: url(img/espacio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+img 
+{
+ width: 30rem;
+ height: 30rem;
+}
+
+p
+{
+    font-size: 1.5rem; 
+    text-align: center;
+}
+
+
+/** Titulos**/  
+
+
+
+
+h1
+{
+font-size: 4rem;
+text-align: center;
+color: blueviolet;
+}
+h2
+{
+font-size: 3rem;
+text-align: center;
+color: pink
+}
+
+h3
+{
+    font-size: 2rem;
+    text-align: center;
+    color: pink 
+}
+
+
+/** Contenedores**/
+
+
+
+.caja-principal
+{
+    max-width: 85rem;
+    margin: 0 auto;
+}
+.caja-planeta
+{
+    display: flex;
+    gap: 15rem;
+    margin: 5rem;
+    align-items: center; 
+   
+}
+
+.caja-astronauta
+{
+    display: flex;
+    gap: 15rem;
+    margin: 5rem;  
+}
+
+
+
+
+
+/** Formulario**/
+
+
+.campos-formulario
+{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 30rem;
+    padding: 0 3rem;
+    background-color: blueviolet;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+
+}   
+.boton
+{ 
+    margin: 2rem;
+    font-size: 1rem;
+}

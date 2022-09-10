@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+    </style>             
+    <title> Peso en otro Planeta</title>
+</head>
+<body>
+    <header>
+        <h1> Calculadora <br> Interplanetaria</h1>
+    </header>
+    <main class="caja-principal">
+
+        <section class="caja-planeta">
+          <img src="img/neptuno.png"> 
+            <p> Neptuno, el octavo y más distante planeta principal que orbita nuestro Sol,
+                es oscuro, frío y azotado por vientos supersónicos. Fue el primer planeta 
+                localizado a través de cálculos matemáticos, en lugar de un telescopio. </p>
+        </section>
+        <section class="caja-planeta">
+          
+              <p>Marte es un mundo polvoriento, frío y desértico con una atmósfera muy delgada. Existe una fuerte evidencia de que Marte era, hace miles de millones de años, más húmedo y cálido, con una atmósfera más espesa. </p>
+              <img src="img/marte.png">
+            
+          </section>
+
+        <section class="caja-astronauta">
+
+            <img src="img/astronauta.png">
+            <div>
+                <h2> ¿Sabías que si te subieras a una balanza en otro planeta, obtendrías un peso distinto que en la Tierra? </h2>
+                <p> Esto es porque los planetas tienen distintos pesos y, por tanto, la fuerza de la gravedad es distinta en cada uno de ellos </p>
+            </div>
+            
+        </section>
+
+                <section>
+
+                    <h3> ¿Quieres saber cuanto pesas en otro planeta? <br> Ingresa tus datos </h3>
+
+                   <form class="campos-formulario">
+                    <label> Ingresa tu Peso en KG </label>
+                    <input type="number" placeholder="Pon tu peso en KG" id="peso-usuario">
+
+                    <label> Selecciona el Planeta</LAbel>
+                    <select required id="planetas">
+                        <option disabled selected value=""> </option>
+                        <option value="11.15"> Neptuno</option>
+                        <option value="3.7"> Marte </option>
+                        <option value="24.7"> Jupiter</option>
+                        <option value="10.44"> Saturno </option>
+                        <option value="8.87"> Venus</option>
+                        <option value="3.7"> Mercurio</option>
+                        <option value="8.87"> Urano</option>   
+                    </select>
+                    
+                    <input class="boton" type="button" value= "Calcular" id="calcular-peso">
+                    <p id="resultado"></p>
+                   </form>
+                  
+                </section>
+            
+    </main>
+    <script src="archivo.js"></script>          
+</body>
+</html>
